@@ -1,0 +1,135 @@
+@font-face{font-family:...; src: url(fonts/...);}
+
+/* General CSS */
+
+html {
+	width: 100%;
+}
+body {
+	font: 12px  Arial, sans-serif;
+	background: #fff;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 1920px;
+	
+}
+
+header {	
+	width: 1920px;
+	height: 669px;
+	background: #a7d4dc url() 0 0 no-repeat;
+}
+
+.logo {
+	float: left;
+	margin-left: 348px;
+	margin-top: 50px;
+}
+
+nav ul {
+	margin-top: 68px;
+	float: right;
+	margin-right: 344px;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	margin-left: 38px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #3a494c;
+	font-size: 23pt;
+	
+}
+
+.clearfix:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+h1 {	
+	float: left;
+	font-size: 54px;	
+	color: #fff;
+	margin-left: 440px;
+	margin-top: 285px;
+}
+
+span {	       
+	padding-left: 30px;
+}
+	
+.imac {
+	margin-right: 458px;
+	float: right;
+	margin-top: 98px;
+}
+
+.secondSection {
+	display: table;
+	margin: 0 auto;
+	width: 1228px;
+	border-spacing: 10px;
+	height: 520px;
+	padding-top: 104px;
+	
+}
+
+.secondSection img+p {
+	color: #323232;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.secondSection p+p {
+	color: #5e5e5e;
+}
+
+
+.col1 {
+	display: table-cell;
+	width: 33%;
+	text-align: center;
+
+}
+.col2 {
+	display: table-cell;
+	width: 33%;
+	text-align: center;
+}
+
+.col3{
+	display: table-cell;
+	width: 33%;
+	text-align: center;
+}
+
+.thirdSection {
+	height: 1326px;
+	background: #a7d4dc url() 0 0 no-repeat;
+}
+
+
+
+/* Header CSS */
+/* Footer CSS */<div class="col3">
+	<div class="col1">
+		<img src="img/iphone.png" alt="">
+		<p>Flat Design</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae reprehenderit vero pariatur odio quas iste unde voluptatum.</p>
+	</div>
+	<div class="col2">
+		<img src="img/light.png" alt="">
+		<p>Great Ideas</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae reprehenderit vero pariatur odio quas iste unde voluptatum.</p>
+	</div>
+	<img src="img/browser.png" alt="">
+	<p>Browser compatability</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae reprehenderit vero pariatur odio quas iste unde voluptatum.</p>
+</div>
