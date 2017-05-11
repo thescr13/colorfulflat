@@ -118,7 +118,7 @@ table {
 	text-align: center;
 }
 
-h2,p {
+h2,p.twoS {
 	color: #fff;
 	text-align: center;
 	font-family: 'Carter One', cursive;
@@ -186,14 +186,91 @@ p.center {
 
 /*Конец третьей секции*/
 
-
-/* .foursSection {
+/*------- Четвенртая секция ------ */
+ .foursSection {
 	width: 100%;
 	height: 952px;
 	background: #fff;
-	margin: 0 auto;
+	margin-top: 78px;
+	color: #000;
 }
 
+.fourLeft {
+	float: left;
+	margin-right: 70px;
+}
+
+.fourRight {
+	float: right;
+	margin-left: 70px;
+}
+
+.greenFSButton {
+	background: #9AD4A6;
+	padding: 30px;
+	font-size: 22px;
+	position: absolute;
+	bottom:0;
+	border:1px solid transparent;
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: #fff;
+	outline:none;
+}
+
+.greenFSButton:active {
+	background: #A5D3DB;
+	padding: 30px;
+	font-size: 22px;
+	position: absolute;
+	bottom:0;
+	border:1px solid transparent;
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.blueFSButton {
+	background: #A5D3DB;
+	padding: 30px;
+	font-size: 22px;
+	position: absolute;
+	bottom:0;
+	border:1px solid transparent;
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: #fff;
+	outline:none;
+}
+
+.blueFSButton:active {
+	background: #9AD4A6;
+	padding: 30px;
+	font-size: 22px;
+	position: absolute;
+	bottom:0;
+	border:1px solid transparent;
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: #fff;
+	outline:none;
+}
+
+.up {
+	margin-bottom: 118px;
+	position: relative;
+	
+}
+
+.down {position: relative;}
+
+
+
+/*------- Конец четвертой секции ------ */
+
+
+
+/*
 .fiveSection {
 	width: 100%;
 	height: 952px;
