@@ -269,15 +269,42 @@ p.center {
 /*------- Конец четвертой секции ------ */
 
 
+/*------- Начало пятой секции ------ */
 
-/*
 .fiveSection {
 	width: 100%;
 	height: 952px;
 	background: #dfb6c5 ;
-	margin: 0 auto;
+	padding-top: 86px;
 }
 
+p.fiveS {
+	color: #fff;
+	text-align: center;
+	font-family: 'Carter One', cursive;
+	font-size: 72px;
+	text-transform: uppercase;
+}
+
+.center {
+	text-align: center;
+}
+
+.whiteColor {
+	color: #fff;
+}
+
+.fiveSectionImg {
+	padding-right: 80px;
+}
+
+.fiveSectionImg:last-child {
+	padding-right: 0;
+}
+
+/*------- Конец пятой секции ------ */
+
+/*
 .sixSection {
 	width: 100%;
 	height: 1022px;
